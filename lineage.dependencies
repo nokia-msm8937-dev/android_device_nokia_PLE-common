@@ -1,6 +1,6 @@
 [
   {
-    "repository": "android_kernel_asus_msm8937",
-    "target_path": "kernel/asus/msm8937"
+    "repository": "android_kernel_nokia_msm8937",
+    "target_path": "kernel/nokia/msm8937"
   }
 ]

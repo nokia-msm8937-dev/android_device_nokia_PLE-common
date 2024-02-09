@@ -1,4 +1,4 @@
-# Common device tree for Asus MSM8937 devices
+# Common device tree for Nokia MSM8937 devices
 
 ```
 #

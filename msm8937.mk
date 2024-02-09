@@ -365,4 +365,4 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf
 
 # Inherit the proprietary files
-$(call inherit-product, vendor/asus/msm8937-common/msm8937-common-vendor.mk)
+$(call inherit-product, vendor/nokia/msm8937-common/msm8937-common-vendor.mk)

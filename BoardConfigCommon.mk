@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-COMMON_PATH := device/asus/msm8937-common
+COMMON_PATH := device/nokia/msm8937-common
 
 # APEX
 OVERRIDE_TARGET_FLATTEN_APEX := true
@@ -86,8 +86,8 @@ ODM_MANIFEST_QCRILD_FILES := $(COMMON_PATH)/manifest_qcrild.xml
 TARGET_HW_DISK_ENCRYPTION := true
 
 # Init
-TARGET_INIT_VENDOR_LIB ?= //$(COMMON_PATH):init_asus_msm8937
-TARGET_RECOVERY_DEVICE_MODULES ?= init_asus_msm8937
+TARGET_INIT_VENDOR_LIB ?= //$(COMMON_PATH):init_nokia_msm8937
+TARGET_RECOVERY_DEVICE_MODULES ?= init_nokia_msm8937
 
 # Kernel
 BOARD_KERNEL_BASE := 0x80000000
@@ -101,7 +101,7 @@ BOARD_MKBOOTIMG_ARGS := --ramdisk_offset $(BOARD_RAMDISK_OFFSET)
 BOARD_MKBOOTIMG_ARGS += --tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
 
 TARGET_KERNEL_CLANG_COMPILE := true
-TARGET_KERNEL_SOURCE := kernel/asus/msm8937
+TARGET_KERNEL_SOURCE := kernel/nokia/msm8937
 
 # Partitions
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
@@ -176,4 +176,4 @@ WIFI_HIDL_UNIFIED_SUPPLICANT_SERVICE_RC_ENTRY := true
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Inherit the proprietary files
-include vendor/asus/msm8937-common/BoardConfigVendor.mk
+include vendor/nokia/msm8937-common/BoardConfigVendor.mk

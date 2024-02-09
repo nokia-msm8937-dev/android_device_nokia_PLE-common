@@ -5,7 +5,7 @@
 //
 
 cc_library_static {
-    name: "libinit_asus_msm8937",
+    name: "libinit_nokia_msm8937",
     srcs: [
         "libinit_dalvik_heap.cpp",
         "libinit_utils.cpp",
@@ -15,9 +15,9 @@ cc_library_static {
 }
 
 cc_library_static {
-    name: "init_asus_msm8937",
-    srcs: ["init_asus_msm8937.cpp"],
-    whole_static_libs: ["libinit_asus_msm8937"],
+    name: "init_nokia_msm8937",
+    srcs: ["init_nokia_msm8937.cpp"],
+    whole_static_libs: ["libinit_nokia_msm8937"],
     include_dirs: ["system/core/init"],
     recovery_available: true,
 }
