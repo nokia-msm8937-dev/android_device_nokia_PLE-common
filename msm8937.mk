@@ -181,11 +181,6 @@ PRODUCT_PACKAGES += \
     ipacm \
     IPACM_cfg.xml
 
-# Keylayout
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/keylayout/msm8952-snd-card-mtp_Button_Jack.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/msm8952-snd-card-mtp_Button_Jack.kl \
-    $(LOCAL_PATH)/keylayout/qcom-tpd.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/qcom-tpd.kl
-
 # Keymaster
 PRODUCT_PACKAGES += \
     libcrypto.vendor
